@@ -15,7 +15,7 @@ void draw() {
   stroke(0);
   strokeWeight(0);
   //1st triangle
-  triangle(135, 916, 174, 949, 150, 850);
+  triangle(150, 910, 200, 950, 165, 850);
   //2nd triangle
   triangle(278, 910, 300, 849, 324, 915);
   triangle(260, 950, 350, 890, 283, 889);
