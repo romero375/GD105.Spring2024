@@ -54,9 +54,7 @@ void draw() {
   line(0, 550, 450, 450);
 
 strokeWeight(10);
-stroke(255, 50);
-noFill();
-triangle(250, 250, 250, 300, 300, 275);
+
 
 save("DarkSide.png");
   

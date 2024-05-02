@@ -13,7 +13,7 @@ void setup() {
 
 void draw() {
 
-  background(255, 255, 200);
+  //background(255, 255, 200);
 
 translate(0,0);
 
@@ -21,6 +21,7 @@ for (int a = 0; a < 1000; a = a + 25) {
   for (int b = 0; b < 1000; b = b + 25) {
     strokeWeight(random(8));
     stroke(255, 255, 100);
+    //noFill();
   fill( 150, 100, 200);
  square(a, b, 25); 
   }
@@ -39,6 +40,7 @@ for (int a = 0; a < 1000; a = a + 25) {
     circle( i, i, 25);
     popMatrix();
   }
-  
-  //save("SPIRAL_FLOWER.PNG");
+  if (mousePressed){
+  save("SPIRAL_FLOWER.PNG");
+  }
 }

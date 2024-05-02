@@ -79,7 +79,10 @@ void draw() {
   }
   // This saves the canvas as an image on the first frame of the program.
   
-    save("Chemical-X.gif");
+   if (mousePressed) {
+     save("Chemical-X.gif");
+   }
+  
   line(100, 300, 400, 700);
   stroke(255, 255, 255);
   strokeWeight(20);
