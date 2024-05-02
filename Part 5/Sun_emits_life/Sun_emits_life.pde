@@ -6,7 +6,7 @@ int c = 0;
 float d = 0.00;
 void setup(){
   size(1000, 1000);
-  background(255, 255, 100);
+  background(255, 255, 0);
 frameRate(1000);
 }
 
@@ -22,5 +22,9 @@ void draw() {
   translate(500,500);
   rotate(TAU * d);
   circle(0 + 100 * cos(a/2), 0 + 700 * sin(c/2), 0 + 100 * sin(c/2));
+  
+  if (keyPressed){
+    save("Life Comes From the Sun.png");
+  }
    
 }
