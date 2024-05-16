@@ -32,7 +32,7 @@ void draw() {
   
    background(255);
    
- image(fd, 0,500,width,200);
+ image(fd, 0,0,width,height);
    
    //scale(.5);
    image(smash, 347, 343);
