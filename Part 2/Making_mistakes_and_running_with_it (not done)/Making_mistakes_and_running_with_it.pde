@@ -79,5 +79,7 @@ void draw() {
   if(circleX > 1000) {
     circleX =  -1;
   }
-  
+  if (mousePressed){
+   save("making mistakes and running with it.png"); 
+  }
 }

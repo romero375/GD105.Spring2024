@@ -52,3 +52,7 @@ image(cloud, 1207,651);
    image(link, -1178, -679);
   
 }
+
+void mousePressed(){
+ save("Trash Smash.png"); 
+}

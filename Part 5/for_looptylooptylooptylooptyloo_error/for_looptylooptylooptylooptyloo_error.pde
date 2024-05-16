@@ -25,5 +25,5 @@ void draw() {
 }
 
 void keyPressed() {
-  save("Do You See What I See?.png");
+  save("Do You See What I See.png");
 }

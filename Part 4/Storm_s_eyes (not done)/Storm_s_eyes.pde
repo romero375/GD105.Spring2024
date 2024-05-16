@@ -31,3 +31,7 @@ fill(201, 56, 28);
 quad(width, 150, 1450, 350, 1425, height, width, 925);
 quad(0, 200, 100, 300, 100, height, 0, height);
 }
+
+void mousePressed(){
+ save("Storm Eyes.png"); 
+}

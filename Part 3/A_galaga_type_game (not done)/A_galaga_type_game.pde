@@ -29,7 +29,7 @@ void keyPressed() {
   
 }
 
-//void mousePressed() {
-//  circle(mouseX,mouseY,50);
+void mousePressed() {
+  save("Not the thing i intended but ok.png");
  
-//}
+}
